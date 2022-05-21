@@ -1,0 +1,45 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkorange;
+    /*border: 3px solid black;*/
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 550px;
+    flex-direction: row;
+    /*border: 3px solid blue;*/
+    justify-content: space-between;
+}
+
+nav ul li {
+
+    /*color: white;*/
+    font-size: 40px;
+    margin: 0 50px;
+    /*border: 3px solid yellow;*/
+}
+
+button {
+    font-size: 40px;
+}
+
+nav a,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 3px solid white;
+}
+
+.active-link {
+    font-weight: bolder;
+}
+
+
+

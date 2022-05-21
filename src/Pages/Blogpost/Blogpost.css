@@ -1,0 +1,11 @@
+.blog-article {
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    width: 550px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.blog-article a {
+    color: darkorange;
+}
